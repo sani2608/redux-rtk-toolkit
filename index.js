@@ -58,7 +58,6 @@ function restockIceCream(qty = 1) {
  * @param {*} action 
  * @returns updated state
  */
-
 const cakeReducer = (state = initialCakeState, action) => {
     switch (action.type) {
         case CAKE_ORDERED:
