@@ -1,5 +1,5 @@
-const configureStore = require('@reduxjs/toolkit').configureStore
 const cakeReducer = require('../features/cake/cakeSlice')
+const configureStore = require('@reduxjs/toolkit').configureStore
 
 const store = configureStore({
     reducer: {
